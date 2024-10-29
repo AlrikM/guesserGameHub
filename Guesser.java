@@ -66,7 +66,7 @@ this.high = high;
     // When you have gotten a valid reply, return it.
     while(true){
       reply = System.console().readLine();
-      if (reply.contains("T") || reply.contains("F")){
+      if (reply.equalsIgnoreCase("T") || reply.equalsIgnoreCase("F")){
         break;
       }
       else

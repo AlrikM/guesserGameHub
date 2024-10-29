@@ -1,4 +1,4 @@
-$ ./run_game.sh
+#!/bin/bash
 echo $USER
 mkdir "$USER"_labb
 cp *.java "$USER"_labb
