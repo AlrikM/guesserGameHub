@@ -1,0 +1,13 @@
+1.Vad är pull repektive push?
+pull innebär att "fetch":a det remote repo och updatera det lokala repo,
+push innebär att updatera remote repo med det lokala repo.
+2.När använder man log respektive status?
+log för att söka bland tidigare iterationer av repo.
+status kollar vad aktuella repo har eller har inte "commit" och även vilka filer eller kataloger som git har koll på.
+3.Vad är en Git branch och varför är de viktiga?
+Git branch är en pointer som leder till en annan iteration av default repo där ändringar har skett.
+Det är viktigt för att kunna utveckla features då det kan potentiellt skapa ostabilitet till default branch.
+4. Det finns flera sätt att rulla tillbaka koden till ett tidigare tillstånd...
+"git restore" är spårlös i historiken och kan användas för att återställa till commit via commit-hash från git log.
+"git reset" visar på historiken och har olika variationer beroende på om man vill göra små förändringar/rättelse i tidigare commits eller om man behöver börja om pga olika oförutsegbara oskaker.
+
