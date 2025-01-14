@@ -1,8 +1,8 @@
 #!/bin/bash
-echo $USER
-mkdir "$USER"_labb
-cp *.java "$USER"_labb
-cd "$USER"_labb
+echo Alrik_Brillantes
+mkdir Alrik_Brillantes_labb
+cp *.java Alrik_Brillantes_labb
+cd Alrik_Brillantes_labb
 echo Running game from "$PWD"
 echo compiling...
 javac Guesser.java
